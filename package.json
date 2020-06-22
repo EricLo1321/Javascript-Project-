@@ -24,5 +24,8 @@
   "bugs": {
     "url": "https://github.com/EricLo1321/Javascript-Project-/issues"
   },
-  "homepage": "https://github.com/EricLo1321/Javascript-Project-#readme"
+  "homepage": "https://github.com/EricLo1321/Javascript-Project-#readme",
+  "dependencies": {
+    "three": "^0.117.1"
+  }
 }
