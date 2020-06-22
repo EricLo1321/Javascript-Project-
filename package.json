@@ -1,0 +1,28 @@
+{
+  "name": "javascript-project",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "webpack-dev-server --config webpack.dev.js",
+    "webpack:watch": "webpack --watch --config webpack.dev.js",
+    "webpack:build": "webpack --config webpack.prod.js  --optimize-minimize"
+  },
+  "browserslist": [
+    "last 1 version",
+    "> 1%",
+    "maintained node versions",
+    "not dead"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/EricLo1321/Javascript-Project-.git"
+  },
+  "author": "Eric Lo",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/EricLo1321/Javascript-Project-/issues"
+  },
+  "homepage": "https://github.com/EricLo1321/Javascript-Project-#readme"
+}
