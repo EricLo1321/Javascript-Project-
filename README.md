@@ -10,9 +10,9 @@ This project will be written using three.js for rendering 3D content onto the pa
 * User interacts with 3D objects by clicking on them 
 * 1
 * 2  
-*ffwef    
+* ffwef    
 (Bonus)  
-*3
+* 3
 
 
 ## Wireframes 
