@@ -14,6 +14,10 @@ This project will be written using three.js for rendering 3D content onto the pa
 * A score will be generated based on the user's actions that are taken throughout the game
 * User will automatically lose the game if score reaches a bottom threshold 
 
-
 ## Wireframes 
 ![wireframe](wireframe.png)
+
+## Implementation Timeline
+June 21, 2020 - Created project repo and proposal  
+June 22, 2020 - Complete three.js tutorial and create a basic moving object in additional to potentially designing some of the 3D objects that will be used  
+June 23, 2020 - Continue to create the 3D objects and start implementing some game logic
