@@ -8,11 +8,10 @@ This project will be written using three.js for rendering 3D content onto the pa
 
 ## Functionality and MVPs
 * User interacts with 3D objects by clicking on them 
-* 1
-* 2  
-* ffwef    
+* Each object when clicked will generate a new page with new story objects
+* Game ends when the user has reached reached the end of the story     
 (Bonus)  
-* 3
+* A score will be generated based on the user's actions that are taken throughout the game
 
 
 ## Wireframes 
