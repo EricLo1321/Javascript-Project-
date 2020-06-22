@@ -12,6 +12,7 @@ This project will be written using three.js for rendering 3D content onto the pa
 * Game ends when the user has reached reached the end of the story     
 (Bonus)  
 * A score will be generated based on the user's actions that are taken throughout the game
+* User will automatically lose the game if score reaches a bottom threshold 
 
 
 ## Wireframes 
