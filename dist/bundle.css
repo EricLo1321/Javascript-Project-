@@ -1,0 +1,20 @@
+body {
+    margin: 0;
+    height: 100vh; 
+}
+
+canvas {
+    display: block;
+}
+
+h1 {
+    position: absolute;
+    /* top: 2em; */
+    left: 6.5em;
+    font-size: 4em;
+    text-transform: uppercase;
+    width: auto;
+    line-height: .8em;
+    padding: .2em;
+    font-family: "Courier New", Courier, monospace;
+}
