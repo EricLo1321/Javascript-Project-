@@ -112,7 +112,16 @@ function init() {
  
 function changeHeader(event){
   const header = document.getElementById("header-text");
-  header.innerHTML = "Now a teen..."
+  switch (header.innerHTML) {
+    case "As a child, you loved...":
+      setTimeout(function () { header.innerHTML = "Your hobbies included..." }, 3000); 
+      break;
+    case "Your hobbies included...":
+      setTimeout(function () { header.innerHTML = "As an adult..." }, 3000); 
+      break;
+    default:
+      console.log("Hello");
+  }
 }
 
  
@@ -132,7 +141,6 @@ function onMouseClick(event) {
       var t1 = new TimelineMax();
       t1.to(intersects[i].object.material, 3, { opacity: 0 });
       // setTimeout(function(){scene.children=[]}, 3000);
-      // group.uuid = E34A4EE8-B572-44DD-A7A1-8081124DC5D5
     }   
 }
 
