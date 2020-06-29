@@ -143,3 +143,36 @@ animate();
       // scene.remove(intersects[i].object);
       // t1.to(mesh.position, .5, { y: 0, ease: Expo.ease }
 
+ //object 1
+  // var geometry = new THREE.PlaneGeometry(1.0, 1.0, 16, 16);
+  // texture.encoding = THREE.sRGBEncoding;
+  // texture.anisotropy = 16;
+
+  // var material = new THREE.MeshStandardMaterial({ map: texture });
+  // var geometry = new THREE.SphereGeometry(0.4, 32, 32);
+  // var texture = new THREE.TextureLoader().load("src/assets/autumn3.jpg");
+  // var material = new THREE.MeshPhongMaterial( {map: texture} );
+  // mesh = new THREE.Mesh(geometry, material);
+  // mesh.position.y = -1.0;
+  // mesh.position.z = 0.5;
+  // scene.add(mesh);
+
+  // object 2
+  // var geometry = new THREE.PlaneGeometry(1.0, 1.0, 16, 16);
+  // var geometry = new THREE.SphereGeometry(0.4, 32, 32);
+  // var texture = new THREE.TextureLoader().load("src/assets/rain.jpg");
+  // var material = new THREE.MeshPhongMaterial({ map: texture });
+  // mesh2 = new THREE.Mesh(geometry, material);
+  // mesh2.position.y = 1;
+  // mesh2.position.x = 2;
+  // scene.add(mesh2);
+
+  //object 3
+  // var geometry = new THREE.SphereGeometry(0.4, 32, 32);
+  // // var geometry = new THREE.PlaneGeometry(1.0, 1.0, 16, 16);
+  // var texture = new THREE.TextureLoader().load("src/assets/stone1.jpg");
+  // var material = new THREE.MeshPhongMaterial({ map: texture });
+  // mesh3 = new THREE.Mesh(geometry, material);
+  // mesh3.position.y = 1;
+  // mesh3.position.x = -2;
+  // scene.add(mesh3);
