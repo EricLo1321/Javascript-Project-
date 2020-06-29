@@ -71,7 +71,7 @@ function init() {
   // } );
 
   var loader = new THREE.GLTFLoader();
-  loader.load("src/assets/gltf/skateboard_3d_scan/scene.gltf", function (gltf) {
+  loader.load("src/assets/gltf/chess/scene.gltf", function (gltf) {
     var model1 = gltf.scene;
     console.log(model1);
     model1.scale.set(1, 1, 1);
