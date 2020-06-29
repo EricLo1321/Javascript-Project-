@@ -127,7 +127,6 @@ function onMouseClick(event) {
 
     var intersects = raycaster.intersectObjects(scene.children, true);
     console.log(intersects);
-    intersects
     for (var i = 0; i < intersects.length; i++) {
       intersects[i].object.material.transparent = true;
       var t1 = new TimelineMax();
