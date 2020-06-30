@@ -71,11 +71,11 @@ function init() {
   // } );
 
   var loader = new THREE.GLTFLoader();
-  loader.load("src/assets/gltf/chess/scene.gltf", function (gltf) {
+  loader.load("src/assets/gltf/playground/scene.gltf", function (gltf) {
     var model1 = gltf.scene;
     console.log(model1);
-    model1.scale.set(1, 1, 1);
-    model1.position.x = -1.75;
+    model1.scale.set(0.2, 0.2, 0.2);
+    model1.position.x = -2.25;
     model1.position.y = 0;
     model1.rotation.x = 0.2;
     scene.add(model1);
@@ -140,7 +140,7 @@ function onMouseClick(event) {
       intersects[i].object.material.transparent = true;
       var t1 = new TimelineMax();
       t1.to(intersects[i].object.material, 3, { opacity: 0 });
-      // setTimeout(function(){scene.children=[]}, 3000);
+      setTimeout(function(){scene.children=[]}, 3000);
     }   
 }
 
