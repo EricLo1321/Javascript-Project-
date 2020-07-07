@@ -124,7 +124,9 @@ function changeHeader(event){
   }
 }
 
- 
+function rePopulate() {
+  
+}
 
 function onMouseClick(event) {
     event.preventDefault();
