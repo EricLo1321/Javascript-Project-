@@ -27,7 +27,7 @@
   "homepage": "https://github.com/EricLo1321/Javascript-Project-#readme",
   "dependencies": {
     "node-gyp": "^7.0.0",
-    "three": "^0.117.1"
+    "three": "^0.125.0"
   },
   "devDependencies": {
     "@babel/core": "^7.10.3",
